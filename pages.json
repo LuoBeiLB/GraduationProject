@@ -1,0 +1,132 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uni_modules/uview-ui/components/u-$1/u-$1.vue"
+	},
+
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "班主任随手记",
+				"navigationStyle": "custom"
+			}
+		}
+	    ,{
+            "path" : "pages/index/tabbar1/tabbar1",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "新闻页面",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/tabbar2/tabbar2",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "全部服务",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/tabbar3/tabbar3",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "出勤记录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/tabbar4/tabbar4",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "个人中心",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/tabbar4/grzx",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "个人中心",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/tabbar4/scry",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "scry",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/tabbar4/yjfk",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "意见反馈",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/tabbar4/xgmm",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "修改密码",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"iconfontSrc": "/static/iconfonts/iconfont.ttf",
+		"list": [{
+			"pagePath": "pages/index/tabbar1/tabbar1",
+			"iconfont": {
+				"text": "\ue650",
+				"selectedText": "\ue650",
+				"selectedColor": "#007aff"
+				
+			},
+			"text": "新闻"
+		}, {
+			"pagePath": "pages/index/tabbar2/tabbar2",
+			"iconfont": {
+				"text": "\ue64b",
+				"selectedText": "\ue64b",
+				"selectedColor": "#007aff"
+			},
+			"text": "全部服务"
+		},{
+			"pagePath": "pages/index/tabbar3/tabbar3",
+			"iconfont": {
+				"text": "\ue64d",
+				"selectedText": "\ue64d",
+				"selectedColor": "#007aff"
+			},
+			"text": "出勤记录"
+		},{
+			"pagePath": "pages/index/tabbar4/tabbar4",
+			"iconfont": {
+				"text": "\ue649",
+				"selectedText": "\ue649",
+				"selectedColor": "#007aff"
+			},
+			"text": "个人中心"
+		}]
+	}
+}

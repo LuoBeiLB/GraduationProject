@@ -1,0 +1,28 @@
+.title{
+	font-size: 32rpx;
+	font-weight: bold;
+}
+.subtitle{
+	font-size: 24rpx;
+	color:#b8b8b8
+}
+.flex{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.mar{
+	// padding-top: 20rpx;
+	margin-top: 20rpx;
+}
+.boxs{
+	border: 1px solid #ffffff;
+	box-shadow: .1em .1em .2em #5acae6;
+	padding: 10px;
+	border-radius: 20rpx;
+	background: #fcfcfc;
+	overflow: hidden;
+}
+.page{
+	margin: 0rpx 20rpx 20rpx 20rpx;
+}
